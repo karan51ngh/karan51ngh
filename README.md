@@ -1,11 +1,13 @@
-<h1 align="center">Hi 👋, I'm Karan</h1>
+<h1 align="center">Hi, I'm Karan</h1>
 <h3 align="center">I’m a Software Developer skilled in React and Java, building enterprise-level applications. Beyond work, I dive into Python scripting, Chrome extension development, and explore machine learning and blockchain to push the boundaries of FOSS innovation.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karan51ngh&label=Profile%20views&color=0e75b6&style=flat" alt="karan51ngh" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=karan51ngh" alt="karan51ngh" /></a> </p>
+- I’m currently working on [RedditRefresh](https://github.com/karan51ngh/RedditRefresh)
 
-- 📫 How to reach me **karansingh9535@gmail.com**
+- I’m currently learning **React.js and Chrome Extension development**
+
+-  How to reach me **karansingh9535@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
