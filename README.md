@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karan51ngh&label=Profile%20views&color=0e75b6&style=flat" alt="karan51ngh" /> </p>
 
-- I’m currently working on [RedditRefresh](https://github.com/karan51ngh/RedditRefresh)
+- I’m currently working on [NoNoise LinkedIn](https://github.com/karan51ngh/no-noise-linkedin) and [RedditRefresh](https://github.com/karan51ngh/RedditRefresh)
 
 - I’m currently learning **React.js and Chrome Extension development**
 
