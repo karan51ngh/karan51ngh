@@ -1,0 +1,89 @@
+\documentclass[a4paper,8pt]{article}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\pagenumbering{gobble} % no page numbers
+
+% Customize section fonts
+\titleformat{\section}{\large\bfseries\uppercase}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+% Custom Commands
+\newcommand{\linuxGitHub}{\href{https://github.com/karan51ngh/karan51ngh}{Linux}}
+\newcommand{\gitGitHub}{\href{https://github.com/karan51ngh/gitCheatSheet}{Git}}
+\newcommand{\jsGitHub}{\href{https://github.com/karan51ngh?tab=repositories&q=&type=&language=javascript}{JavaScript}}
+\newcommand{\cppGitHub}{\href{https://github.com/karan51ngh/topicWiseQuestions}{C++}}
+\newcommand{\pythonGitHub}{\href{https://github.com/karan51ngh?tab=repositories&q=&type=&language=python}{Python}}
+\newcommand{\praw}{\href{https://github.com/praw-dev/praw}{PRAW (Python Reddit API Wrapper)}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Karan Singh Bagga}} \\
+  \faEnvelope\ \href{mailto:karansingh9535@gmail.com}{karansingh9535@gmail.com} \quad | \quad
+  \faGithub\ \href{https://github.com/karan51ngh}{github.com/karan51ngh} \quad | \quad
+  \faLinkedin\ \href{https://linkedin.com/in/karan51ngh}{linkedin.com/in/karan51ngh} \\
+  \vspace{0.2em}
+  React \& Java Developer with 2 years of experience building Enterprise-Level applications
+\end{center}
+
+% \vspace{1em}
+
+% ========================
+\section*{\faTools\hspace{0.5em}Skills}
+\textbf{Languages:} \cppGitHub, {Java}, \jsGitHub, {TypeScript}, \pythonGitHub \\
+\textbf{Frontend:} React (React.js), HTML, CSS \\
+\textbf{Backend:} Spring Boot, Node.js, REST APIs \\
+\textbf{Tools:} \linuxGitHub, \gitGitHub, Postman \\
+\textbf{Software Development:} GitHub, Agile, Jira
+
+% ========================
+\section*{\faBriefcase\hspace{0.5em}Experience}
+\subsection*{Oracle }
+
+\textbf{Associate Software Developer} \\ \textit{Hyderabad, Aug 2023 -- Present}
+\begin{itemize}[leftmargin=1.5em]
+  \item Built the User-Interface (UI) for \textbf{Enterprise Management System} (Oracle Hospitality), from the ground up to production readiness, within \textbf{1.5 years}, using \textbf{React.js} along with \textbf{TypeScript}, ensuring responsiveness, and maintainability 
+  \item Developed and maintained User-Permissions related \textbf{CRUD APIs} for \textbf{Enterprise Management System} using \textbf{Java}, and \textbf{Spring Boot}, ensuring secure access control and seamless integration with front-end modules
+  \item Fixed \textbf{30+ bugs}, over the course of 2 years, in Oracle Hospitality's Flagship product: \textbf{OPERA Cloud}, with Legacy Code-Base, involving \textbf{Java}, and \textbf{REST APIs}
+\end{itemize}
+\textbf{Software Development Intern} \\ \textit{Remote, Jan 2023 -- Jul 2023}
+\begin{itemize}[leftmargin=1.5em]
+  \item Helped Standardize \textbf{developer Linux VMs} across the Oracle Hospitality Org, by upgrading the VMs from \textbf{Oracle Linux 7} to \textbf{Oracle Linux 8}, improving consistency and security compliance 
+  \item Addressed open logging-related issues within the internal \textbf{REST API} wrapper used in \textbf{OPERA Cloud}
+\end{itemize}
+
+% ========================
+\section*{\faRocket\hspace{0.5em}Projects}
+
+\textbf{RedditRefresh} \\ \textit{\href{https://github.com/karan51ngh/RedditRefresh}{Source Code}} \\
+\textit{"RedditRefresh"} is a Python Script that helps you Bulk \textbf{Delete}, \textbf{Cryptographically Hash}, \textbf{Encrypt} or \textbf{Decrypt} your Reddit posts or comments for better Privacy and Security
+\begin{itemize}[leftmargin=1.5em]
+    \item Used \textbf{Python} with \textbf{\praw} to develop the script
+    \item Used \textbf{SHA-256}, \textbf{AES-Encryption} for privacy related features, ensuring reliable Hashing and Encryption of user data
+    \item Received \textbf{40+ Stars} on GitHub from the Open Source community
+\end{itemize}
+\textbf{NoNoise LinkedIn} \\ \textit{\href{https://github.com/karan51ngh/no-noise-linkedin}{Source Code}} | \textit{\href{https://github.com/karan51ngh/no-noise-linkedin}{Chrome Webstore Link}} \\
+\textit{"NoNoise LinkedIn"} is an \textbf{Open Source} Chrome extension that removes \textbf{"Suggested"} and \textbf{"Promoted"} posts, from your LinkedIn feed
+
+\begin{itemize}[leftmargin=1.5em]
+    \item Used Vanilla \textbf{JavaScript} with \textbf{DOM Manipulation} and \textbf{JavaScript Events} along with \textbf{\href{https://developer.chrome.com/docs/extensions/reference/api}{Chrome extension APIs}} to build the extension
+    \item Received \textbf{5 Star} rating, with \textbf{38+ active users} in less than a month on Chrome WebStore, post launch
+\end{itemize}
+
+% ========================
+\section*{\faGraduationCap\hspace{0.5em}Education}
+
+\textbf{B.Tech in Computer Science Engineering} \\
+{Amrita School of Computing},  \\ \textit{Bangalore,2019 -- 2023} \\
+\textit{\href{https://drive.google.com/drive/folders/1Hu5mrXyz4nnYDJhT7x9IuLwLyBzCwkKB}{Degree Certificate}}
+\begin{itemize}[leftmargin=1.5em]
+    \item Published a \textbf{Research Paper} on \textbf{Blockchains} in Healthcare \textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}}
+    \item Graduated with \textbf{First Class} with \textbf{Distinction} (8.2 CGPA)
+    \item President at CodeChef - Amrita Bangalore Chapter. Technical Member at Google DSC, Amrita Bangalore
+\end{itemize}
+\end{document}
