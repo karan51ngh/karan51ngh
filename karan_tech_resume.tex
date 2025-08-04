@@ -1,12 +1,13 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[a4paper,margin=0.5cm]{geometry}
-\geometry{paperheight=55cm}
+\geometry{paperheight=60cm}
 % \usepackage[margin=0.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
+\usepackage[none]{hyphenat}
 
 \pagenumbering{gobble} % no page numbers
 
@@ -38,18 +39,19 @@
   {\LARGE \textbf{Karan Singh Bagga}} \\
   
   \faEnvelope\ \href{mailto:karansingh9535@gmail.com}{karansingh9535@gmail.com} | 
-  \faGithub\ \href{https://github.com/karan51ngh}{github.com/karan51ngh} | 
-  \faLinkedin\ \href{https://linkedin.com/in/karan51ngh}{linkedin.com/in/karan51ngh} \\ 
+  \faGithub\ \href{https://github.com/karan51ngh}{github.com/karan51ngh} \\ 
+  \faLinkedin\ \href{https://linkedin.com/in/karan51ngh}{linkedin.com/in/karan51ngh} |
   \faMedium\ \href{https://medium.com/@karan51ngh}{medium.com/@karan51ngh}
   \\
-  \vspace{0.4em}
-  React \& Java Developer with 2 years of experience building AI powered Enterprise-Level applications.
+  \vspace{0.8em}
+  React \& Java Developer with 2 years’ experience building enterprise applications. Delivered end-to-end UI and backend features, including secure APIs and AI-powered modules.
 \end{center}
 
 % \vspace{1em}
 
 % ========================
-\section*{\faTools\hspace{0.5em}Skills}
+% \section*{\faToolsSkills}
+\section*{Skills}
 \textbf{Languages:} \cppGitHub, \Java, \jsGitHub, TypeScript, \pythonGitHub \\
 \textbf{Frontend:} React (React.js), HTML, CSS \\
 \textbf{Backend:} Spring Boot, REST APIs, SQL, Node.js\\
@@ -58,61 +60,74 @@
 \textbf{Software Development:} GitHub / GitLab, Agile, Jira
 
 % ========================
-\section*{\faBriefcase\hspace{0.5em}Experience}
-\subsection*{Oracle }
+% \section*{\faBriefcase\hspace{0.5em}Experience}
+\section*{Experience}
+\subsection*{\textbf{Oracle}}
 
 \textbf{Associate Software Developer} \hfill \textit{Hyderabad | Hybrid, Aug 2023 -- Present}
 \begin{itemize}[leftmargin=1.5em]
-  \item Engineered the User Interface and API integration handlers for a brand-new single-page web application \textbf{(Enterprise Management System, Oracle Hospitality)} using \textbf{React.js} and \textbf{TypeScript}. Delivered the entire UI from inception to production in 1.5 years as part of a two-person team, ensuring scalable, responsive, and maintainable architecture for the product’s initial launch.
-  \item Developed multiple secure \textbf{RESTful APIs} for an Enterprise Management System using \textbf{Java} and \textbf{Spring Boot}, implementing robust access control to protect customer data and ensuring seamless integration with front-end applications.
-  \item Developed and implemented \textbf{AI} powered features including \textbf{automated text translation} and a \textbf{chatbot assistant} within the \textbf{Enterprise Management System}, leveraging \textbf{Large Language Model (LLM)} engineering. Independently handled both frontend and backend development, resulting in increased user satisfaction by eliminating the need for manual text translation within the application.
+  \item Engineered the User Interface and API integration handlers for a new single-page web application: \textbf{Enterprise Management System}, by Oracle Hospitality, using React.js and TypeScript.
+        \begin{itemize} 
+            \item Delivered the entire UI from inception to production over \textbf{1.5 years} as a key member of a \textbf{2-person team}.
+            \item Successfully launched the application, leading to the onboarding of \textbf{5 pilot customers}.
+        \end{itemize}
+  \item Developed \textbf{7} secure \textbf{RESTful APIs} for \textbf{Enterprise Management System} using \textbf{Java} and \textbf{Spring Boot}, implementing access control to protect customer data and ensuring seamless integration with frontend applications.
+  \item Spearheaded the end-to-end development and deployment of \textbf{2 AI}-powered features: an automated text translation tool and a chatbot assistant.
+        \begin{itemize} 
+            \item Leveraged \textbf{Large Language Model (LLM)} engineering to build and integrate the AI functionalities within \textbf{Enterprise Management System}.
+            \item Improved the user workflow by automating text translation, a change that \textbf{80\% of customers} confirmed increased their convenience.
+        \end{itemize}
 \end{itemize}
 
-\subsection*{Oracle }
+\subsection*{\textbf{Oracle}}
 \textbf{Software Development Intern} \hfill \textit{Remote, Jan 2023 -- Jul 2023}
 \begin{itemize}[leftmargin=1.5em]
-  \item Helped standardize \textbf{Developer Linux Virtual Machines} across the organization by upgrading the \textbf{Linux Kernel}, enhancing consistency, security compliance, and operational efficiency across \textbf{300+} developer environments. Enabled developers to leverage newer tools and technologies, leading to improved productivity and streamlined development workflows.
-  \item Diagnosed and resolved issues in the existing custom logger within the internal \textbf{REST API} wrapper for \textbf{OPERA Cloud}. Improved the accuracy and clarity of log output, enhancing developers’ ability to track issues, debug efficiently, and monitor system activity.
+  \item Upgraded the \textbf{Linux} OS Version across \textbf{300+ developer VMs} to standardize environments and strengthen security compliance, unlocking access to newer tools and increasing developer productivity.
+  \item Rectified \textbf{3 open issues} in the custom logger for the \textbf{OPERA Cloud} REST API wrapper, delivering more accurate and clear log outputs to accelerate developer debugging and system monitoring.
 \end{itemize}
 
 % ========================
-\section*{\faRocket\hspace{0.5em}Projects}
-\textbf{BetterPrompt} \\ \textit{\href{https://github.com/BtrPrmt/BetterPrompt-extension}{Frontend Source Code}} | \textit{\href{https://github.com/BtrPrmt/BetterPrompt-WS}{Backend Source Code}} \\
-\textit{"BetterPrompt"} is a Browser extension designed to enhance the quality of prompts written for Large Language Model (LLM) services such as ChatGPT, Grok, Perplexity etc. It will madify and rate user-written prompts in real-time to improve prompt clarity, specificity, and overall effectiveness.
+% \section*{\faRocket\hspace{0.5em}Projects}
+\section*{Projects}
+\subsection*{BetterPrompt} \textit{\href{https://github.com/BtrPrmt/BetterPrompt-extension}{Frontend Source Code}} | \textit{\href{https://github.com/BtrPrmt/BetterPrompt-WS}{Backend Source Code}} \\
+\textit{"BetterPrompt"} is a Browser extension designed to enhance the quality of prompts written for Large Language Model (\textbf{LLM}) services such as ChatGPT, Grok, Perplexity.AI etc.
 \begin{itemize}[leftmargin=1.5em]
-    \item Used \textbf{JavaScript} along with \textbf{Chrome extension APIs} to develop the extension Frontend.
-    \item Used \textbf{Node.js} to develop the service Backend.
-    \item Engineered Prompts to utilize \textbf{GPT} and \textbf{llama} LLM models for prompt improvement and prompt rating calculation.
+    \item It currently consists of \textbf{2 features}: Modifying and Rating the user-written prompts in real-time to improve prompt clarity, specificity, and overall effectiveness.
+    \item Harnessed \textbf{JavaScript} and \textbf{Chrome extension APIs} to build the extension Frontend which consisted of \textbf{2 buttons} and several helper methods. 
+    \item Used \textbf{Node.js} to implement \textbf{3 web-services} in the Backend to leverage the \textbf{GPT} and \textbf{Llama} LLM models.  
+    \item Engineered and wrote \textbf{5 distinct Prompts} to utilize \textbf{GPT} and \textbf{Llama} LLM models for prompt improvement and prompt rating calculation.
 \end{itemize}
-\textbf{MediChain} \\ \textit{\href{https://github.com/karan51ngh/MediChain}{Source Code}} | \textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}} \\
-\textit{"MediChain"} is a proof-of-concept (POC) implementation of our paper titled: \textit{"Proof-of-Trust-in-Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"}. It is implemented as a Consortium Blockchain for Seamless Patient Information Management in National Healthcare.
+\subsection*{MediChain} \textit{\href{https://github.com/karan51ngh/MediChain}{Source Code}} | \textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}} \\
+\textit{"MediChain"} is a proof-of-concept (\textbf{POC}) implementation of the published paper titled: \textit{"Proof-of-Trust-in-Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"}.
 \begin{itemize}[leftmargin=1.5em]
-    \item Used \textbf{Python} along with libraries such as \textbf{socket}, \textbf{sqlite3}, \textbf{threading}, and \textbf{hashlib}, utilizing concepts of networking, cryptography, and concurrent programming to develop the POC.
-    \item Implemented the \textbf{Blockchain} and the \textbf{Mining Process} from scratch, utilizing \textbf{SHA-256} hashing.
-    \item Developed a modified version of \textbf{Proof of Stake (PoS)} to mimic \textbf{Proof of Trust in Expertise (PoTE)}.
+    \item It is architected as a Consortium \textbf{Blockchain} for Seamless Patient Information Management in National Healthcare.
+    \item Leveraged \textbf{Python} along with \textbf{7 standard libraries} such as \textbf{socket}, \textbf{sqlite3}, \textbf{threading}, \textbf{hashlib} etc., utilizing core CS concepts like networking, cryptography, and concurrent programming to craft the POC.
+    \item Built the \textbf{Blockchain} and the \textbf{Mining Process} from scratch, utilizing \textbf{SHA-256} hashing.
+    \item Designed a modified version of \textbf{Proof of Stake (PoS)} to mimic \textbf{Proof of Trust in Expertise (PoTE)}.
 \end{itemize}
-\textbf{RedditRefresh} \\ \textit{\href{https://github.com/karan51ngh/RedditRefresh}{Source Code}} \\
-\textit{"RedditRefresh"} is a Python Script that helps you Bulk \textbf{Delete}, \textbf{Cryptographically Hash}, \textbf{Encrypt} or \textbf{Decrypt} your Reddit posts or comments for better Privacy and Security
+\subsection*{RedditRefresh} \textit{\href{https://github.com/karan51ngh/RedditRefresh}{Source Code}} \\
+\textit{"RedditRefresh"} is a Python Script that helps you with \textbf{4 Operations}: Bulk \textbf{Delete}, \textbf{Cryptographically Hash}, \textbf{Encrypt} or \textbf{Decrypt} the user's Reddit posts or comments for better Privacy and Security
 \begin{itemize}[leftmargin=1.5em]
-    \item Used \textbf{Python} with \textbf{\praw} to develop the script.
+    \item Used \textbf{Python} with \textbf{\praw} to develop the \textbf{4 features} in the script.
     \item Used \textbf{SHA-256}, \textbf{AES-Encryption} for privacy related features, ensuring reliable Hashing and Encryption of user data.
     \item Received \textbf{40+ Stars} on GitHub from the Open Source community.
 \end{itemize}
-\textbf{NoNoise LinkedIn} \\ \textit{\href{https://github.com/karan51ngh/no-noise-linkedin}{Source Code}} | \textit{\href{https://chromewebstore.google.com/detail/nonoise-linkedin/hbcjelfhlljdepmifggbmhnklhmdmldn}{Chrome Webstore Link}} \\
-\textit{"NoNoise LinkedIn"} is an \textbf{Open Source} Chrome extension that removes \textbf{"Suggested"} and \textbf{"Promoted"} posts, from your LinkedIn feed
+\subsection*{NoNoise LinkedIn} \textit{\href{https://github.com/karan51ngh/no-noise-linkedin}{Source Code}} | \textit{\href{https://chromewebstore.google.com/detail/nonoise-linkedin/hbcjelfhlljdepmifggbmhnklhmdmldn}{Chrome Web Store Link}} \\
+\textit{"NoNoise LinkedIn"} is an \textbf{Open Source} Chrome extension that removes \textbf{100\%} of the \textbf{"Suggested"} and \textbf{"Promoted"} posts, from the user's LinkedIn feed.
 \begin{itemize}[leftmargin=1.5em]
-    \item Used Vanilla \textbf{JavaScript} with \textbf{DOM Manipulation} and \textbf{JavaScript Events} along with \textbf{\href{https://developer.chrome.com/docs/extensions/reference/api}{Chrome extension APIs}} to build the extension.
-    \item Received \textbf{5 Star} rating from 50+ users, with \textbf{80+ active users} in less than a month on Chrome WebStore, post launch.
+    \item Utilized Vanilla \textbf{JavaScript} with \textbf{DOM Manipulation} and \textbf{JavaScript Events} along with \textbf{\href{https://developer.chrome.com/docs/extensions/reference/api}{Chrome extension APIs}} to create the extension.
+    \item Achieved a \textbf{5-star} rating from \textbf{50+ users} and grew to \textbf{80+ active users} within the first month of launch on the Chrome Web Store, demonstrating strong user adoption and satisfaction.
 \end{itemize}
 
 % ========================
-\section*{\faGraduationCap\hspace{0.5em}Education and Research}
+% \section*{\faGraduationCap\hspace{0.5em}Education and Research}
+\section*{Education and Research}
 
-\textbf{B.Tech in Computer Science Engineering} \\
-{Amrita School of Computing},  \\ \textit{Bangalore,2019 -- 2023} 
+\subsection*{B.Tech in Computer Science Engineering}
+{Amrita School of Computing},  \\ \textit{Bangalore, 2019 -- 2023} 
 \begin{itemize}[leftmargin=1.5em]
-    \item Published a \textbf{Research Paper} titled \textit{"Proof-of-Trust-in-Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"} in Healthcare (\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}}).
+    \item Published 1 \textbf{Research Paper} titled \textit{"Proof-of-Trust-in-Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"} in Healthcare (\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}}).
     \item Graduated with \textbf{First Class} with \textbf{Distinction} (8.2 CGPA) \textit{\href{https://drive.google.com/drive/folders/1Hu5mrXyz4nnYDJhT7x9IuLwLyBzCwkKB}{(Degree Certificate Link)}}.
-    \item President at \textbf{CodeChef} - Amrita Bangalore Chapter and Technical Member at \textbf{Google DSC}, Amrita Bangalore.
+    \item President at \textbf{CodeChef} - Amrita Bangalore Chapter for \textbf{1 year} and Technical Member at \textbf{Google DSC}, Amrita Bangalore for \textbf{3 years}.
 \end{itemize}
 \end{document}
