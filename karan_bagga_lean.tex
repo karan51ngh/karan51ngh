@@ -1,0 +1,156 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[a4paper,margin=0.5cm]{geometry}
+% \geometry{paperheight=56cm}
+\geometry{paperheight=39cm}
+% \usepackage[margin=0.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[none]{hyphenat}
+\usepackage{microtype}
+
+% \usepackage[default]{sourcesanspro}
+% \usepackage[T1]{fontenc}
+
+% \usepackage[sfdefault]{roboto}
+% \usepackage[T1]{fontenc}
+
+\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Define your custom "Bone" or "Off-White" color
+% This is a soft, warm beige-grey perfect for reading
+\definecolor{bone}{RGB}{245, 240, 219} 
+\pagecolor{bone!20}
+
+
+\pagenumbering{gobble} % no page numbers
+
+\titleformat{\section}
+  {\large\bfseries\uppercase} % Text formatting
+  {}                          % Label (We keep this empty for resumes)
+  {0pt}                       % Space between label and text
+  {}                          % Code before the title
+  [\titlerule]                % <--- THIS DRAWS THE LINE
+
+% 2. SPACING: {Left Indent}{Space BEFORE}{Space AFTER}
+\titlespacing{\section}{0pt}{20pt}{10pt}
+
+% 3. SUBSECTION FORMAT 
+\titleformat{\subsection}
+  {\normalsize\bfseries}
+  {}
+  {0em}
+  {}
+
+% --- END REPLACEMENT CODE ---
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+
+\definecolor{techblue}{HTML}{0093D2} 
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=techblue,
+    urlcolor=techblue,
+    citecolor=techblue
+}
+
+% Custom Commands
+\newcommand{\linuxGitHub}{\href{https://github.com/karan51ngh/karan51ngh}{Linux}}
+\newcommand{\gitGitHub}{\href{https://github.com/karan51ngh/gitCheatSheet}{Git}}
+\newcommand{\GitHub}{\href{https://github.com/karan51ngh}{GitHub}}
+\newcommand{\jsGitHub}{\href{https://github.com/karan51ngh?tab=repositories&q=&type=&language=javascript}{JavaScript}}
+\newcommand{\cppGitHub}{\href{https://github.com/karan51ngh/topicWiseQuestions}{C++}}
+\newcommand{\pythonGitHub}{\href{https://github.com/karan51ngh?tab=repositories&q=&type=&language=python}{Python}}
+\newcommand{\praw}{\href{https://github.com/praw-dev/praw}{PRAW (Python Reddit API Wrapper)}}
+\newcommand{\MachineLearning}{\href{https://github.com/karan51ngh/machineLearning}{Machine Learning}}
+\newcommand{\Java}{\href{https://github.com/karan51ngh/javaprogramming}{Java}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Karan Singh Bagga}} \\
+  \vspace{5pt}
+  \href{mailto:karansingh9535@gmail.com}{karansingh9535@gmail.com} \textbar{} \href{https://github.com/karan51ngh}{github.com/karan51ngh} \textbar{} +91-9016538357\\
+\href{https://linkedin.com/in/karan51ngh}{linkedin.com/in/karan51ngh} \textbar{} \href{https://medium.com/@karan51ngh}{karan51ngh.medium.com} \textbar{} Hyderabad, India
+\end{center}
+
+\section{Summary}
+\begin{flushleft}
+Results-driven Software Engineer with 3 years of experience \textbf{accelerating} product delivery at Oracle. \textbf{Specialist in taking concepts from 0-to-1}, architecting scalable \textbf{Micro-Frontend} solutions, and \textbf{pioneering} production GenAI integrations. Committed to engineering excellence and high-impact automated workflows.
+\end{flushleft}
+
+
+\section{Experience}
+\subsection*{\textbf{Oracle}}
+
+\begin{itemize}[leftmargin=1em, label={}]    
+    % --- Experience 1 ---
+    \item \textbf{Software Developer} \hfill \textit{Hyderabad \textbar{} Hybrid, Aug 2023 -- Present}
+    \begin{itemize}[leftmargin=1.5em]
+        \item \textbf{Architected} the core frontend infrastructure for the \textbf{Enterprise Management System (EM)}, by Oracle Hospitality, using React.js and TypeScript.
+        \item \textbf{Owned the end-to-end SDLC} from inception to production launch for the entire UI, delivering a \textbf{0-to-1} product over \textbf{1.5 years} as a key member of a 2-person Frontend team.
+        \item Developed \textbf{7} secure RESTful APIs for \textbf{Enterprise Management System (EM)} using Java + Spring Boot, implementing Role-Based Access Control \textbf{(RBAC)} to ensure security compliance for sensitive customer data.
+        \item \textbf{Pioneered} the adoption of GenAI/LLMs within the team by \textbf{identifying automation bottlenecks}, utilizing Model Context Protocol (MCP) to engineer a solution that reduced manual data entry by \textbf{80\%}.
+        \item Successfully launched \textbf{Enterprise Management System (EM)}, leading to the onboarding of \textbf{5 pilot customers}. \href{https://docs.oracle.com/en/industries/hospitality/enterprise-management/ecmrn/ch_overview.htm}{Oracle’s Official Release Notes} \textbar{} \href{https://docs.oracle.com/en/industries/hospitality/enterprise-management/ecmug/c_preface.htm}{Oracle’s Official User Guide} for \textbf{EM}
+    \end{itemize}
+
+    \vspace{5pt} % Adds a little breathing room between roles
+
+    % --- Experience 2 ---
+    \item \textbf{Project Intern} \hfill \textit{Remote, Jan 2023 -- Jul 2023}
+    \begin{itemize}[leftmargin=1.5em]
+        \item \textbf{Collaborated} with senior engineers to \textbf{standardize} the React.js component library, resulting in the release of \textbf{5} new standard framework components for Oracle Hospitality.
+        \item \textbf{Executed a critical security migration} upgrading the \textbf{Linux} OS for \textbf{300+ developer VMs} to standardize environments, unlocking modern tooling and boosting team productivity.
+    \end{itemize}
+
+\end{itemize}
+
+% ========================
+% \section*{\faToolsSkills}
+\section{Skills}
+
+\begin{flushleft}
+\textbf{Languages:} \cppGitHub, \Java, \jsGitHub, \pythonGitHub, TypeScript  \\
+\textbf{Frontend:} React (React.js), HTML, CSS \\
+\textbf{Backend:} Spring Boot, Java, REST APIs, SQL, Node.js\\
+\textbf {Artificial Intelligence (AI / GenAI):} \MachineLearning, LLM, Prompt Engineering, AI Agents, MCP \\
+\textbf{Tools:} \linuxGitHub, \gitGitHub, Postman \\
+\textbf{Cloud} (Familiarity): Docker, Jenkins, CI/CD \\
+\textbf{Software Development:} \GitHub /GitLab, Agile, Jira
+\end{flushleft}
+
+% ========================
+% \section*{\faRocket\hspace{0.5em}Projects}
+\section{Projects}
+
+\subsection*{NoNoise LinkedIn} \textit{\href{https://github.com/karan51ngh/no-noise-linkedin}{Source Code}} \textbar{} \textit{\href{https://chromewebstore.google.com/detail/nonoise-linkedin/hbcjelfhlljdepmifggbmhnklhmdmldn}{Chrome Web Store Link}}
+\begin{itemize}[leftmargin=1.5em]
+     \item \textbf{Engineered a high-performance React App} functioning as a \textbf{micro-frontend} within the LinkedIn ecosystem, utilizing Shadow DOM encapsulation to ensure \textbf{100\%} style isolation from the host site.
+     \item \textbf{Scaled to 100+ weekly active users} with a \textbf{5.0 star rating} on the Chrome Web Store, driving growth through open-source contributions.
+    \item \textbf{Built a high-performance filtering engine} that blocks \textbf{100\%} of the "Promoted" and "Suggested" content with \textbf{<50ms} latency.
+    \item \textbf{Architected a privacy-first AI spam blocker} utilizing LLMs (gpt-oss:20b, llama3.1:8b) and Text Classification algorithms to enhance privacy with \textbf{92\% accuracy}. Progress: \href{https://github.com/karan51ngh/LocalLLMtextClassification}{Local LLM Text Classification}
+    \item \textbf{Designed a friction-less UI} experience, reducing user configuration time by an estimated \textbf{60\%} compared to traditional extension popups.
+\end{itemize}
+
+% ========================
+% \section*{\faGraduationCap\hspace{0.5em}Education and Research}
+\section{Education and Research}
+
+\subsection*{B.Tech in Computer Science Engineering}
+
+\textbf{Amrita School of Computing}  \hfill \textit{Bangalore, Aug 2019 -- Aug 2023} 
+\begin{itemize}[leftmargin=1.5em]
+    \item Published \textbf{1 Research Paper} titled \textit{"Proof of Trust in Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"}. (\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Abstract}} 
+    \textbar{} 
+    \textit{\href{https://github.com/karan51ngh/MediChain}{Source Code}} 
+    )
+    \item Graduated with \textbf{First Class with Distinction (8.2/10 CGPA)} 
+    % \textit{\href{https://drive.google.com/drive/folders/1Hu5mrXyz4nnYDJhT7x9IuLwLyBzCwkKB}{(Degree Certificate)}}.
+\end{itemize}
+\end{document}
