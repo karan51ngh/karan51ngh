@@ -18,7 +18,7 @@ of production GenAI solutions. Proficient in: <code>React.js</code>, <code>TypeS
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap;">
   <div>
     <!-- <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/socials.svg" alt="Karan Singh • Social links" width="284" height="76" /> -->
-     <img align="center" src="assets/icons/socials.svg" alt="Karan Singh • Social links" width="284" height="76" />
+     <!-- <img align="center" src="assets/icons/socials.svg" alt="Karan Singh • Social links" width="284" height="76" /> -->
   </div>
   <div>
     <img src="https://github-statspro.vercel.app/api/languages/karan51ngh?theme=github_dark&layout=default" alt="Languages Card" />
