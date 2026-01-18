@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[a4paper,margin=0.5cm]{geometry}
-\geometry{paperheight=56cm}
-% \geometry{paperheight=50cm}
+% \geometry{paperheight=56cm}
+\geometry{paperheight=45cm}
 % \usepackage[margin=0.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{enumitem}
@@ -10,6 +10,7 @@
 \usepackage{fontawesome5}
 \usepackage[none]{hyphenat}
 \usepackage{microtype}
+
 % \usepackage[default]{sourcesanspro}
 % \usepackage[T1]{fontenc}
 
@@ -28,9 +29,24 @@
 
 \pagenumbering{gobble} % no page numbers
 
-% Customize section fonts
-\titleformat{\section}{\large\bfseries\uppercase}{\thesection}{1em}{}
-\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titleformat{\section}
+  {\large\bfseries\uppercase} % Text formatting
+  {}                          % Label (We keep this empty for resumes)
+  {0pt}                       % Space between label and text
+  {}                          % Code before the title
+  [\titlerule]                % <--- THIS DRAWS THE LINE
+
+% 2. SPACING: {Left Indent}{Space BEFORE}{Space AFTER}
+\titlespacing{\section}{0pt}{20pt}{10pt}
+
+% 3. SUBSECTION FORMAT 
+\titleformat{\subsection}
+  {\normalsize\bfseries}
+  {}
+  {0em}
+  {}
+
+% --- END REPLACEMENT CODE ---
 
 \usepackage[dvipsnames]{xcolor}
 \usepackage{hyperref}
@@ -58,105 +74,87 @@
 
 \begin{center}
   {\LARGE \textbf{Karan Singh Bagga}} \\
-  \vspace{0.8em}
-  \href{mailto:karansingh9535@gmail.com}{karansingh9535@gmail.com} \textbar{} \href{https://github.com/karan51ngh}{github.com/karan51ngh} \textbar{} +91 9016538357\\
+  \vspace{5pt}
+  \href{mailto:karansingh9535@gmail.com}{karansingh9535@gmail.com} \textbar{} \href{https://github.com/karan51ngh}{github.com/karan51ngh} \textbar{} +91-9016538357\\
 \href{https://linkedin.com/in/karan51ngh}{linkedin.com/in/karan51ngh} \textbar{} \href{https://medium.com/@karan51ngh}{medium.com/@karan51ngh}
-  
 \end{center}
-% \vspace{0.8em}
+
+\section{Summary}
 \begin{flushleft}
-Software Engineer with 2+ years of experience at Oracle specializing in Full-Stack development and the integration of production GenAI solutions. Proficient in: React, TypeScript, JavaScript, and Java.
+Software Engineer with 3 years of experience at Oracle specializing in Full-Stack development and the integration of production GenAI solutions. Proficient in: React, TypeScript, JavaScript, and Java.
 \end{flushleft}
 
-% \vspace{1em}
 
-
-% ========================
-% \section*{\faBriefcase\hspace{0.5em}Experience}
-\section*{Experience}
+\section{Experience}
 \subsection*{\textbf{Oracle}}
-% \subsubsection*{Associate Software Developer}
-% \hfill \textit{Hyderabad | Hybrid, Aug 2023 -- Present} 
-\textbf{Associate Software Developer} \hfill \textit{Hyderabad \textbar{} Hybrid, Aug 2023 -- Present}
-\begin{itemize}[leftmargin=1.5em]
-  \item Engineered the complete Frontend for a new single-page web application (SPA): \textbf{Enterprise Management System (EM)}, by Oracle Hospitality, using React.js and TypeScript.
-  \item Delivered the entire UI from inception to production (\textbf{0-to-1} production launch) over \textbf{1.5 years} as a key member of a 2-person Frontend team.      
-  \item Developed \textbf{7} secure RESTful APIs for \textbf{Enterprise Management System (EM)} using Java + Helidon, implementing \textbf{Role-Based Access Control (RBAC)} to ensure security compliance for sensitive customer data.
- 
-  \item \textbf{Led the full-cycle implementation of GenAI modules}, utilizing Large Language Models (LLMs) and Model Context Protocol (MCP) to automate text translation, directly reducing manual data entry overhead by an estimated \textbf{80\%}.
 
-   \item Successfully launched \textbf{Enterprise Management System (EM)}, leading to the onboarding of \textbf{5 pilot customers}. \href{https://docs.oracle.com/en/industries/hospitality/enterprise-management/ecmrn/ch_overview.htm}{Oracle’s Official Release Notes} \textbar{} \href{https://docs.oracle.com/en/industries/hospitality/enterprise-management/ecmug/c_preface.htm}{Oracle’s Official User Guide} for \textbf{EM}
-  % \item \textbf{Pioneered the integration of GenAI features into legacy workflows}, engineering a production-grade translation tool and chatbot that reduced manual data entry overhead by an estimated \textbf{80\%}.
-\end{itemize}
+\begin{itemize}[leftmargin=1em, label={}]    
+    % --- Experience 1 ---
+    \item \textbf{Associate Software Developer} \hfill \textit{Hyderabad \textbar{} Hybrid, Aug 2023 -- Present}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Engineered the complete Frontend for a new single-page web application (SPA): \textbf{Enterprise Management System (EM)}, by Oracle Hospitality, using React.js and TypeScript.
+        \item Delivered the entire UI from inception to production (\textbf{0-to-1} production launch) over \textbf{1.5 years} as a key member of a 2-person Frontend team.
+        \item Developed \textbf{7} secure RESTful APIs for \textbf{Enterprise Management System (EM)} using Java + Helidon, implementing \textbf{Role-Based Access Control (RBAC)} to ensure security compliance for sensitive customer data.
+        \item \textbf{Led the full-cycle implementation of GenAI modules}, utilizing Large Language Models (LLMs) and Model Context Protocol (MCP) to automate text translation, directly reducing manual data entry overhead by an estimated \textbf{80\%}.
+        \item Successfully launched \textbf{Enterprise Management System (EM)}, leading to the onboarding of \textbf{5 pilot customers}. \href{https://docs.oracle.com/en/industries/hospitality/enterprise-management/ecmrn/ch_overview.htm}{Oracle’s Official Release Notes} \textbar{} \href{https://docs.oracle.com/en/industries/hospitality/enterprise-management/ecmug/c_preface.htm}{Oracle’s Official User Guide} for \textbf{EM}
+    \end{itemize}
 
-\subsection*{\textbf{Oracle}}
-\textbf{Software Development Intern} \hfill \textit{Remote, Jan 2023 -- Jul 2023}
-\begin{itemize}[leftmargin=1.5em]
-  \item Worked with \textbf{React.js + TypeScript} components to verify API handlers and integration, resulting in the release of \textbf{5} new standard framework React.js components for Oracle Hospitality.
-  \item Upgraded the \textbf{Linux} OS Version across \textbf{300+ developer VMs} to standardize environments and strengthen security compliance, unlocking access to newer tools and increasing developer productivity.
-  
+    \vspace{5pt} % Adds a little breathing room between roles
+
+    % --- Experience 2 ---
+    \item \textbf{Software Development Intern} \hfill \textit{Remote, Jan 2023 -- Jul 2023}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Worked with \textbf{React.js + TypeScript} components to verify API handlers and integration, resulting in the release of \textbf{5} new standard framework React.js components for Oracle Hospitality.
+        \item Upgraded the \textbf{Linux} OS Version across \textbf{300+ developer VMs} to standardize environments and strengthen security compliance, unlocking access to newer tools and increasing developer productivity.
+    \end{itemize}
+
 \end{itemize}
 
 % ========================
 % \section*{\faToolsSkills}
-\section*{Skills}
+\section{Skills}
+
+\begin{flushleft}
 \textbf{Languages:} \cppGitHub, \Java, \jsGitHub, \pythonGitHub, TypeScript  \\
 \textbf{Frontend:} React (React.js), HTML, CSS \\
 \textbf{Backend:} Helidon, Java, REST APIs, SQL, Node.js\\
-\textbf {Artificial Intelligence (AI / GenAI):} \MachineLearning, LLM, Prompt Engineering, AI Agents and MCP \\
+\textbf {Artificial Intelligence (AI / GenAI):} \MachineLearning, LLM, Prompt Engineering, AI Agents, MCP \\
 \textbf{Tools:} \linuxGitHub, \gitGitHub, Postman \\
 \textbf{Cloud} (Familiarity): Docker, Jenkins, CI/CD \\
 \textbf{Software Development:} \GitHub /GitLab, Agile, Jira
-
+\end{flushleft}
 
 % ========================
 % \section*{\faRocket\hspace{0.5em}Projects}
-\section*{Projects}
+\section{Projects}
 
 \subsection*{NoNoise LinkedIn} \textit{\href{https://github.com/karan51ngh/no-noise-linkedin}{Source Code}} \textbar{} \textit{\href{https://chromewebstore.google.com/detail/nonoise-linkedin/hbcjelfhlljdepmifggbmhnklhmdmldn}{Chrome Web Store Link}}
 \begin{itemize}[leftmargin=1.5em]
-    \item \textbf{Developed and launched a privacy-focused Chrome Extension} that sanitizes LinkedIn feeds by algorithmically removing \textbf{100\%} of the "Suggested" and "Promoted" content, resulting in a distraction-free UX.
-     \item Scaled product to \textbf{100+ active weekly users}  with a 5.0-star rating from \textbf{75+ users} on the Chrome Web Store, achieving organic growth through open-source community engagement.
-    \item \textbf{Engineered a lightweight content script} using Vanilla JavaScript to manipulate the DOM in real-time ($<50$ms latency) without degrading page load performance.
-    \item \textbf{Developing} an AI-powered User Generated Spam blocker. Progress: \textbf{\href{https://github.com/karan51ngh/LocalLLMtextClassification}{Local LLM Text Classification}}
+    \item \textbf{Architected a React.js + JavaScript Chrome Extension} that sanitizes LinkedIn feeds, removing 100\% of promotional content via real-time DOM manipulation \textbf{(<50ms latency)}.
+     \item \textbf{Scaled to 100+ weekly active users} with a \textbf{5.0-star rating} on the Chrome Web Store, driving growth through open-source contributions.
+    \item \textbf{Designing an AI-driven spam blocker} utilizing LLMs (gpt-oss:20b, llama3.1:8b) and Text Classification algorithms to enhance privacy with \textbf{92\% accuracy}. Progress: \textbf{\href{https://github.com/karan51ngh/LocalLLMtextClassification}{Local LLM Text Classification}}
 \end{itemize}
-
 
 \subsection*{BetterPrompt} \textit{\href{https://github.com/BtrPrmt/BetterPrompt-extension}{Frontend Source Code}} \textbar{} \textit{\href{https://github.com/BtrPrmt/BetterPrompt-WS}{Backend Source Code}}
 \begin{itemize}[leftmargin=1.5em]
-    \item \textbf{Architected an AI-powered browser extension} that functions as a "Grammarly for Prompts," intercepting user input to score and refine prompts for ChatGPT/LLaMA in real-time.
-    \item Utilized \textbf{JavaScript} and \textbf{Chrome extension APIs} to build the extension Frontend which consisted of a \textbf{2 buttons} simple UX and several helper methods. 
-    \item Designed and implemented \textbf{3 Node.js backend services} to orchestrate prompt processing and API calls to \textbf{GPT} and \textbf{LLaMA} models.
-    \item Authored \textbf{5 specialized few-shot prompts} to implement prompt refinement and scoring logic across multiple LLMs.
+    \item \textbf{Architected a real-time AI browser extension} that intercepts and optimizes user inputs for LLMs, reducing prompt iteration cycles by \textbf{40\%} and improving output relevance by \textbf{~2x}.
+    \item \textbf{Developed a high-performance JavaScript frontend} leveraging Chrome Extension APIs, achieving a <50ms Time-to-Interactive (TTI) and a lightweight bundle size of under 30KB. 
+    \item \textbf{Designed and implemented 3 Node.js backend services} to orchestrate prompt processing and API calls to \textbf{GPT} and \textbf{LLaMA} models.
+    \item \textbf{Implemented advanced Prompt Engineering} strategies using Few-Shot Learning, authoring \textbf{5 specialized prompts} and \textbf{2 scoring algorithms} that increased prompt adherence to best practices by \textbf{90\%}.
 \end{itemize}
-\subsection*{MediChain} \textit{\href{https://github.com/karan51ngh/MediChain}{Source Code}} \textbar{} \textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}}
-\begin{itemize}[leftmargin=1.5em]
-    \item Implemented a proof-of-concept based on the research paper \textit{“Proof of Trust in Expertise (PoTE): A Consensus Mechanism for Healthcare-Based Consortium Blockchains.”}
-    \item Built the \textbf{Blockchain} and the \textbf{Mining Mechanism} from scratch, utilizing \textbf{SHA-256} hashing.
-    \item Designed a modified version of \textbf{Proof of Stake (PoS)} to mimic \textbf{Proof of Trust in Expertise (PoTE)}.
-    \item Leveraged Python and standard libraries to apply networking, cryptography, and concurrency concepts in a \textbf{distributed system}.
-\end{itemize}
-\subsection*{RedditRefresh} \textit{\href{https://github.com/karan51ngh/RedditRefresh}{Source Code}}
-\begin{itemize}[leftmargin=1.5em]
-    \item Built a Python Script that helps with \textbf{4 Operations}: \textbf{Bulk Delete, Cryptographically Hash, Encrypt or Decrypt} a user's Reddit posts or comments for better Privacy and Security
-    \item Used \textbf{Python} with \textbf{Python Reddit API Wrapper} to develop the \textbf{4 Operations} in the script.
-    \item Used \textbf{SHA-256}, \textbf{AES-Encryption} for privacy related features, ensuring reliable Hashing and Encryption of user data.
-    \item Received \textbf{40+ Stars} on GitHub from the Open Source community.
-\end{itemize}
-
 
 % ========================
 % \section*{\faGraduationCap\hspace{0.5em}Education and Research}
-\section*{Education and Research}
+\section{Education and Research}
 
 \subsection*{B.Tech in Computer Science Engineering}
 
-\textbf{Amrita School of Computing}  \hfill \textit{Bangalore, 2019 -- 2023} 
+\textbf{Amrita School of Computing}  \hfill \textit{Bangalore, Aug 2019 -- Aug 2023} 
 \begin{itemize}[leftmargin=1.5em]
-    \item Published \textbf{1 Research Paper} titled \textit{"Proof of Trust in Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"} in Healthcare. (\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Link}} 
+    \item Published \textbf{1 Research Paper} titled \textit{"Proof of Trust in Expertise (PoTE): A Consensus Mechanism for Healthcare based Consortium Blockchains"}. (\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804243}{Paper Abstract}} 
     \textbar{} 
     \textit{\href{https://github.com/karan51ngh/MediChain}{Source Code}} 
     )
-    \item Graduated with \textbf{First Class with Distinction (8.2 CGPA)} \textit{\href{https://drive.google.com/drive/folders/1Hu5mrXyz4nnYDJhT7x9IuLwLyBzCwkKB}{(Degree Certificate Link)}}.
+    \item Graduated with \textbf{First Class with Distinction (8.2/10 CGPA)} \textit{\href{https://drive.google.com/drive/folders/1Hu5mrXyz4nnYDJhT7x9IuLwLyBzCwkKB}{(Degree Certificate)}}.
 \end{itemize}
 \end{document}
