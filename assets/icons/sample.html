@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Karan Singh • Social links</title>
+    <style>
+      :root {
+        --border: #d0d7de;
+        --bg: #ffffff;
+        --fg: #0b121a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --border: #2d333b;
+          --bg: #0b121a;
+          --fg: #e6edf3;
+        }
+      }
+      html, body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans,
+          Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        background: var(--bg);
+        color: var(--fg);
+        display: grid;
+        place-items: center;
+      }
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px;
+        margin: 16px;
+      }
+      .icon-btn {
+        display: inline-flex;
+        width: 44px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        margin: 6px 0;
+        background: transparent;
+        text-decoration: none;
+      }
+      .icon-btn img {
+        width: 24px;
+        height: 24px;
+        /* Make SVGs visible in dark mode when assets are dark-on-light; invert only in dark */
+        filter: none;
+      }
+      @media (prefers-color-scheme: dark) {
+        .icon-btn img { filter: invert(1); }
+      }
+      .icon-btn:focus-visible {
+        outline: 2px solid #0969da;
+        outline-offset: 2px;
+      }
+      .sr-only { /* utility if needed later */
+        position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+        clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav class="card" aria-label="Social links">
+        <a class="icon-btn" href="https://twitter.com/karan5ingh" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter) - @karan_51ngh">
+          <img src="assets/icons/x.svg" alt="" aria-hidden="true" loading="lazy" />
+        </a>
+        <a class="icon-btn" href="https://linkedin.com/in/karan51ngh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn - karan51ngh">
+          <img src="assets/icons/linkedin.svg" alt="" aria-hidden="true" loading="lazy" />
+        </a>
+        <a class="icon-btn" href="https://karan51ngh.medium.com" target="_blank" rel="noopener noreferrer" aria-label="Medium - karan51ngh">
+          <img src="assets/icons/medium.svg" alt="" aria-hidden="true" loading="lazy" />
+        </a>
+        <a class="icon-btn" href="https://www.instagram.com/karan51ngh/" target="_blank" rel="noopener noreferrer" aria-label="Instagram - @karan51ngh">
+          <img src="assets/icons/instagram.svg" alt="" aria-hidden="true" loading="lazy" />
+        </a>
+        <a class="icon-btn" href="mailto:karansingh9535@gmail.com" rel="noopener noreferrer" aria-label="Email - karansingh9535@gmail.com">
+          <img src="assets/icons/protonmail.svg" alt="" aria-hidden="true" loading="lazy" />
+        </a>
+      </nav>
+    </main>
+  </body>
+</html>

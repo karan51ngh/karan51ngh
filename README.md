@@ -16,22 +16,9 @@ of production GenAI solutions. Proficient in: <code>React.js</code>, <code>TypeS
 
 <!-- <h3 align="center">Connect with me</h3> -->
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap;">
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; border: 1px solid #d0d7de; border-radius: 12px; padding: 16px; margin: 16px 0;">
-    <a href="https://twitter.com/karan5ingh" target="_blank" rel="noreferrer" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; border: 1px solid #d0d7de; border-radius: 8px; margin: 6px 0;">
-      <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/x.svg" alt="X (formerly Twitter) - @karan_51ngh" width="24" height="24" style="filter: invert(1);" />
-    </a>
-    <a href="https://linkedin.com/in/karan51ngh" target="_blank" rel="noreferrer" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; border: 1px solid #d0d7de; border-radius: 8px; margin: 6px 0;">
-      <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/linkedin.svg" alt="LinkedIn - karan51ngh" width="24" height="24" style="filter: invert(1);" />
-    </a>
-    <a href="https://karan51ngh.medium.com" target="_blank" rel="noreferrer" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; border: 1px solid #d0d7de; border-radius: 8px; margin: 6px 0;">
-      <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/medium.svg" alt="Medium - karan51ngh" width="24" height="24" style="filter: invert(1);" />
-    </a>
-    <a href="https://www.instagram.com/karan51ngh/" target="_blank" rel="noreferrer" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; border: 1px solid #d0d7de; border-radius: 8px; margin: 6px 0;">
-      <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/instagram.svg" alt="Instagram - @karan51ngh" width="24" height="24" style="filter: invert(1);" />
-    </a>
-    <a href="mailto:karansingh9535@gmail.com" target="_blank" rel="noreferrer" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; border: 1px solid #d0d7de; border-radius: 8px; margin: 6px 0;">
-      <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/protonmail.svg" alt="Email - karansingh9535@gmail.com" width="24" height="24" style="filter: invert(1);" />
-    </a>
+  <div>
+    <!-- <img align="center" src="https://raw.githubusercontent.com/karan51ngh/karan51ngh/main/assets/icons/socials.svg" alt="Karan Singh • Social links" width="284" height="76" /> -->
+     <img align="center" src="assets/icons/socials.svg" alt="Karan Singh • Social links" width="284" height="76" />
   </div>
   <div>
     <img src="https://github-statspro.vercel.app/api/languages/karan51ngh?theme=github_dark&layout=default" alt="Languages Card" />
